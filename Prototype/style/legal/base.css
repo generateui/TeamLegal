@@ -88,7 +88,7 @@ form.concise label {
 #dossierList {
 	padding: 10px 10px 60px;
 	margin: 0px 0px 20px 0px;
-	width: 580px;
+	width: 730;
 }
 
 #dossierList dt {
@@ -100,7 +100,7 @@ form.concise label {
 	position: relative;
 	text-shadow: 0 1px 0px rgba(0,0,0,0.4);
 	clear: left;
-	width: 570px;
+	width: 720px;
 	text-decoration: none;
 }
 
@@ -114,11 +114,29 @@ form.concise label {
 #dossierList dd {
 	background: #C8C3BE;
 	clear: left;
-	width: 570px;
+	width: 720px;
 	float: left;
 	height: 30px;
 	padding: 0px;
 	margin: 0px 0px 20px 0px;
+}
+
+#dossierList dt.header {
+	display: none;
+}
+
+#dossierList dd.header {
+	background: transparent;
+	margin: 0px 0px -5px 0px;
+}
+
+#dossierList dd.header p {
+	float: left;
+	width: 170px;
+	font-weight: bold;
+	padding-top: 3px;
+	padding-left: 10px;
+
 }
 
 #dossierList .range {
