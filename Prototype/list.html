@@ -1,4 +1,4 @@
-<?xml version="1.0"/>
+<?xml version="1.0"?>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="nl">
   <head>
     <meta name="application-name" content="Team Legal"/>
@@ -8,10 +8,7 @@
     <link rel="stylesheet" type="text/css" media="all" href="style/main/base.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="style/legal/base.css"/>
     
-<link type="text/css" href="css/smoothness/jquery-ui-1.8.14.custom.css" rel="stylesheet" />	
-<script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
-<script type="text/javascript" src="js/jquery-ui-1.8.14.custom.min.js"></script>
-
+    <link type="text/css" href="css/smoothness/jquery-ui-1.8.14.custom.css" rel="stylesheet" />	
   </head>
   <body>
     <h1 id="pageTitle">Procesoverzicht</h1>
@@ -52,11 +49,15 @@
       <li class="actionitem"><img src="media/Email.png"><img src="media/EmailPaid.png"> Email</li>
     </ul>
     -->
+    <script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.14.custom.min.js"></script>
+    <script type="text/javascript" >
+// <![CDATA[
+    jQuery(document).ready(function(){
+        $('.accordion').accordion();
+    });
+// ]]>
+    </script>
     
   </body>
 </html>
-	 <script type="text/javascript" >
-jQuery(document).ready(function(){
-	$('.accordion').accordion();
-});
-</script>
