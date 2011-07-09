@@ -84,3 +84,59 @@ form.concise label {
 	width: 350px;
 }
 
+
+#dossierList {
+	padding: 10px 10px 60px;
+	margin: 0px 0px 20px 0px;
+	width: 580px;
+}
+
+#dossierList dt {
+	height: 30px;
+	line-height: 30px;
+	margin: 0px 0px -30px 0px;
+	color: white;
+	padding-left: 10px;
+	position: relative;
+	text-shadow: 0 1px 0px rgba(0,0,0,0.4);
+	clear: left;
+	width: 570px;
+	text-decoration: none;
+}
+
+#dossierList dt a {
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+
+#dossierList dd {
+	background: #C8C3BE;
+	clear: left;
+	width: 570px;
+	float: left;
+	height: 30px;
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
+}
+
+#dossierList .range {
+	height: 30px;
+	text-indent: -1000px;
+	overflow: hidden;
+	background: #3E6B52 url(graph-bars.png);
+	display: inline-block;
+	float: left;
+}
+
+#dossierList .range.step2 {
+	background-color: #FF7B00;
+	background-position: right -30px;
+}
+
+#dossierList .range.step3 {
+	background-color: red;
+	background-position: center -30px;
+}
+
