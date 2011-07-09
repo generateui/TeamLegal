@@ -36,3 +36,18 @@ body {
         padding-top: 5px;
         height: 130px;
 }
+
+fieldset.concise label,
+form.concise label {
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+}
+
+.span-10 fieldset.concise,
+.span-10 form.concise fieldset {
+	width: 400px;
+}
+
+.span-10 .buttonbar {
+	width: 350px;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0"/>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nl">
+  <head>
+    <meta name="application-name" content="Team Legal"/>
+    <meta charset="UTF-8"/>
+    <title>Inloggen - Team Legal</title>
+    <link rel="stylesheet" type="text/css" media="all" href="style/main/base.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="style/legal/base.css"/>
+  </head>
+  <body id="login">
+    <h1 id="pageTitle">Login</h1>
+
+    <p>Om een dossier bij te houden of gebruik te maken van extra services moet je
+    je aangemeld zijn.</p>
+
+    <div class="span-10">
+      <h2>Ik heb al een account</h2>
+      <form method="post" action="dashboard.html">
+        <fieldset class="concise">
+          <label>E-mail adres <input type="text" length="80" name="login"/></label>
+          <label>Wachtwoord <input type="password" length="80" name="password"/></label>
+        </fieldset>
+        <div class="buttonBar">
+          <button type="submit" class="defaultButton">Login</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="span-10 last">
+      <h2>Aanmelden</h2>
+      <form method="post" action="confirm-email.html">
+        <fieldset class="concise">
+          <label>Voornaam<sup class="required">*</sup>  <input type="text" length="80" name="firstname"/></label>
+          <label>Achternaam<sup class="required">*</sup> <input type="text" length="80" name="surname"/></label>
+          <label>E-mail adres<sup class="required">*</sup> <input type="text" length="80" name="email"/></label>
+          <label>Wachtwoord<sup class="required">*</sup> <input type="password" length="80" name="password.password"/></label>
+          <label>Bevestig wachtwoord<sup class="required">*</sup> <input type="text" length="80" name="password.confirm"/></label>
+        </fieldset>
+        <div class="buttonBar">
+          <button type="submit" class="defaultButton">Aanmelden</button>
+        </div>
+      </form>
+    </div>
+
+    <ul id="tabs">
+      <li id="home"><a href="index.html">Team Legal</a></li>
+    </ul>
+    <ul class="menu" id="siteMenu">
+      <li id="user"><a href="login.html">Log in</a></li>
+    </ul>
+  </body>
+</html>
