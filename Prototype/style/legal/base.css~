@@ -21,7 +21,7 @@ body {
         padding: 10px 5px;
         margin: 20px;
         text-align: center;
-        font-size: 30px;
+        font-size: 15px;
         text-transform: uppercase;
         background-repeat: no-repeat;
 	     background-position: center left;	
