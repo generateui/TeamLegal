@@ -1,0 +1,25 @@
+body {
+	font-family: 'PT Sans Caption', arial, serif;
+}
+
+#pageTitle {
+	padding-top: 150px;
+}
+
+#services li {
+        float: left;
+        width: 200px;
+        height: 160px;
+        border: solid silver 1px;
+	background: pink;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px;
+        padding: 10px 5px;
+        margin-right: 10px;
+	text-align: center;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+

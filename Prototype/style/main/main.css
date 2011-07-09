@@ -1,0 +1,36 @@
+/* @group Reset styles */
+
+body {
+	margin: 0px;
+}
+
+/* @end */
+
+/* @group Page layout */
+
+#header {
+	position: absolute;
+	top: 0px;
+	height: 50px;
+	width: 100%;
+	background-color: #ff654e;
+}
+
+
+#home {
+	background: transparent url(logo.png) no-repeat;
+	height: 0px;
+	padding-top: 56px;
+	overflow: hidden;
+}
+
+#header #login {
+	padding-top: 15px;
+	padding-right: 15px;
+	float: right;
+}
+
+
+
+
+/* @end */
